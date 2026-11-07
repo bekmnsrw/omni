@@ -23,7 +23,6 @@ Use the run configurations provided by the run widget in your IDE's toolbar. You
 - Server: `./gradlew :server:run`
 - Web app:
   - Wasm target (faster, modern browsers): `./gradlew :app:webApp:wasmJsBrowserDevelopmentRun`
-  - JS target (slower, supports older browsers): `./gradlew :app:webApp:jsBrowserDevelopmentRun`
 
 ### Running tests
 
@@ -33,7 +32,6 @@ Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
 - Server tests: `./gradlew :server:test`
 - Web tests:
   - Wasm target: `./gradlew :app:shared:wasmJsTest`
-  - JS target: `./gradlew :app:shared:jsTest`
 
 ---
 
