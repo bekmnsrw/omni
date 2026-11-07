@@ -1,0 +1,80 @@
+## Local configuration file (sdk path, etc)
+local.properties
+
+## IDE / user-specific configurations
+.idea
+*.iml
+*.ipr
+*.iws
+
+## Generated files
+/*/build/
+**/build/
+bin/
+gen/
+out/
+build
+!src/**/build/
+
+## Gradle generated files
+.gradle/
+.gradle
+
+## Kotlin
+.kotlin
+
+## Signing files
+.signing/
+
+## Keystore
+/keystore/debug.properties
+/keystore/release.keystore
+/keystore/release.properties
+
+## Firebase
+/androidApp/google-services.json
+/iosApp/GoogleService-Info.plist
+
+## Caches / build artifacts
+classes/
+target/**
+captures
+.externalNativeBuild
+.cxx
+
+## Node
+node_modules/
+
+## iOS
+/iosApp/Pods/
+/iosApp/build
+/iosApp/DerivedData
+
+iosApp/xcuserdata/
+xcuserdata
+/iosApp/iosApp.xcodeproj/xcuserdata/
+/iosApp/iosApp.xcworkspace/xcuserdata/
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.lock
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## Xcode project / workspace rules
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+## OS files
+.DS_Store
