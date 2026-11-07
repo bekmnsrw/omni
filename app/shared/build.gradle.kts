@@ -50,12 +50,6 @@ kotlin {
             implementation(libs.compose.ui)
             implementation(libs.compose.uiToolingPreview)
         }
-        commonTest.dependencies {
-            implementation(libs.kotlin.test)
-        }
-        getByName("androidDeviceTest").dependencies {
-            implementation(libs.androidx.testRunner)
-        }
     }
 }
 
